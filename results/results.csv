@@ -1,0 +1,2 @@
+seed,frames,FIFO,LRU,Optimal,Learned,FIFO_before,LRU_before,Optimal_before,Learned_before,FIFO_after,LRU_after,Optimal_after,Learned_after,FIFO_hit_ratio_before,LRU_hit_ratio_before,Optimal_hit_ratio_before,Learned_hit_ratio_before,FIFO_hit_ratio_after,LRU_hit_ratio_after,Optimal_hit_ratio_after,Learned_hit_ratio_after,learned_accuracy,mean_confidence_correct,mean_confidence_wrong
+2026,4,388,398,205,285,228,249,101,138,160,150,107,147,0.24,0.17,0.6633333333333333,0.54,0.4666666666666667,0.5,0.6433333333333333,0.51,0.4234875444839858,0.01237482497910795,0.00896648161867343

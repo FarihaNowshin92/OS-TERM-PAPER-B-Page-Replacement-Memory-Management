@@ -1,0 +1,38 @@
+CSE-307 Track 1 - Learned Page Replacement
+==================================================
+Frames: 4
+Trace length: 600
+Shift: locality/sequential -> random/bursty
+
+FIFO: 388 page faults
+LRU: 398 page faults
+Optimal: 205 page faults
+Learned: 285 page faults
+
+Before shift:
+FIFO: 228
+LRU: 249
+Optimal: 101
+Learned: 138
+
+After shift:
+FIFO: 160
+LRU: 150
+Optimal: 107
+Learned: 147
+
+Hit ratio before shift:
+FIFO: 0.240 (24.0%)
+LRU: 0.170 (17.0%)
+Optimal: 0.663 (66.3%)
+Learned: 0.540 (54.0%)
+
+Hit ratio after shift:
+FIFO: 0.467 (46.7%)
+LRU: 0.500 (50.0%)
+Optimal: 0.643 (64.3%)
+Learned: 0.510 (51.0%)
+
+Learned eviction accuracy: 0.423
+Mean confidence, correct: 0.012
+Mean confidence, wrong: 0.009
